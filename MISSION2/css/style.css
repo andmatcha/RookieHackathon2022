@@ -493,8 +493,9 @@ body {
   letter-spacing: 0.05rem;
 }
 .intro-body__info {
-  margin: 8px 0;
   text-align: center;
+  border-bottom: 1px solid #dbe8f4;
+  padding: 8px 0;
 }
 
 .pic-body {
