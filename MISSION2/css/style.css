@@ -460,6 +460,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 32px;
 }
 .main-section__head {
   margin: 24px 0;
