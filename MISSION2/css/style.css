@@ -430,6 +430,9 @@ body {
   -o-object-fit: contain;
      object-fit: contain;
 }
+.header__nav {
+  padding-bottom: 80px;
+}
 .header__list {
   display: flex;
   flex-direction: column;
