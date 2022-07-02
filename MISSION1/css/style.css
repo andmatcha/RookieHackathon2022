@@ -512,3 +512,16 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.footer {
+  height: 80px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.footer__text {
+  text-align: center;
+}
