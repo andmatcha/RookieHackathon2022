@@ -1,0 +1,22 @@
+.intro-body {
+    &__img-box {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    &__img {
+        width: 100%;
+        object-fit: cover;
+    }
+    &__name {
+        font-size: 1.5rem;
+        margin: 16px 0;
+        text-align: center;
+        letter-spacing: 0.05rem;
+    }
+    &__info {
+        margin: 8px 0;
+        text-align: center;
+    }
+}

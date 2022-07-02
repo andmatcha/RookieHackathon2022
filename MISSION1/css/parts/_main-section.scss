@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    &__head {
+        margin: 24px 0;
+    }
     &__big-title {
         text-align: center;
         font-size: 2.2rem;
