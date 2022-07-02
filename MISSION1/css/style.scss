@@ -1,0 +1,11 @@
+// common
+@use "./common/_reset.css";
+@use "./common/common";
+
+// parts
+@use "./parts/header";
+
+@use "./parts/main";
+@use "./parts/main-section";
+
+@use "./parts/footer";
