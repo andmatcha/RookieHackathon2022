@@ -1,0 +1,17 @@
+// common
+@use "./common/_reset.css";
+@use "./common/common";
+
+// parts
+@use "./parts/wrap";
+@use "./parts/header";
+
+@use "./parts/main";
+@use "./parts/main-section";
+@use "./parts/insta";
+@use "./parts/hero-body";
+@use "./parts/intro-body";
+@use "./parts/pic-body";
+@use "./parts/hobby-body";
+
+@use "./parts/footer";
