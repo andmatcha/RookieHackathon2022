@@ -36,5 +36,10 @@
         background-color: #016fb7;
         padding: 0.8rem;
         border-radius: 8px;
+        transition: box-shadow 0.4s ease, transform 0.4s ease;
+        &:hover {
+            box-shadow: 4px 4px 4px #cccccc;
+            transform: translate(-4px, -4px);
+        }
     }
 }

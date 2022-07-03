@@ -447,6 +447,11 @@ body {
   background-color: #016fb7;
   padding: 0.8rem;
   border-radius: 8px;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.header__official-btn:hover {
+  box-shadow: 4px 4px 4px #cccccc;
+  transform: translate(-4px, -4px);
 }
 
 .main {
@@ -530,6 +535,10 @@ body {
   align-items: center;
   box-shadow: 2px 2px 4px #cccccc;
   padding: 24px;
+  transition: transform 0.4s ease;
+}
+.hobby-body__card:hover {
+  transform: translateY(-16px);
 }
 .hobby-body__icon-box {
   width: calc(100% - 32px);

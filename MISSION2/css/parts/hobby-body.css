@@ -10,6 +10,10 @@
   align-items: center;
   box-shadow: 2px 2px 4px #cccccc;
   padding: 24px;
+  transition: transform 0.4s ease;
+}
+.hobby-body__card:hover {
+  transform: translateY(-16px);
 }
 .hobby-body__icon-box {
   width: calc(100% - 32px);

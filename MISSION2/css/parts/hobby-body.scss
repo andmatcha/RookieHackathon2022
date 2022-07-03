@@ -9,6 +9,10 @@
         align-items: center;
         box-shadow: 2px 2px 4px #cccccc;
         padding: 24px;
+        transition: transform 0.4s ease;
+        &:hover {
+            transform: translateY(-16px);
+        }
     }
     &__icon-box {
         width: calc(100% - 32px);
