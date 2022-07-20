@@ -1,0 +1,26 @@
+.hobby-body {
+    display: flex;
+    gap: 24px;
+    min-height: 320px;
+    &__card {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 2px 2px 4px #cccccc;
+        padding: 24px;
+        transition: transform 0.4s ease;
+        &:hover {
+            transform: translateY(-16px);
+        }
+    }
+    &__icon-box {
+        width: calc(100% - 32px);
+        padding: 0 56px;
+    }
+    &__title {
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+        margin: 20px 0;
+    }
+}
